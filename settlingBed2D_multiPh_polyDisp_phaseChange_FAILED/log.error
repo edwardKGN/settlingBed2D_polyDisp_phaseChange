@@ -1,0 +1,84 @@
+--> FOAM FATAL ERROR: 
+
+    request for volScalarField iDmdt.waterAndSolid from objectRegistry region0 failed
+    available objects of type volScalarField are
+
+59
+(
+continuityErrorFlow.solid
+r
+K.solid
+iDmdt
+nut.solid
+f.solid.particles
+N
+gs0.solid
+f3.solid.particles
+driftRate
+thermo:psi.water
+e.solid
+d.solid
+dpdt
+thermo:rho.water_0
+f1.solid.particles
+alpha.solid
+kappa.solid
+p
+Sui
+p_0
+source.solid
+thermo:mu.water
+lambda.solid
+Theta.solid
+nuFric.solid
+SuSp
+alphat.solid
+alpha.particles
+alpha.water_0
+thermo:alpha.water
+M&p_rgh
+fsum.solid.particles
+alpha.water
+p_rgh_0
+thermo:rho.solid
+T.water
+p_rgh
+f2.solid.particles
+continuityErrorSources.solid
+pDmdt.waterAndSolid
+thermo:mu.solid
+gh
+f5.solid.particles
+T.solid
+f0.solid.particles
+f4.solid.particles
+Kd.waterAndSolid
+f6.solid.particles
+thermo:rho.water
+continuityErrorSources.water
+K.water
+thermo:rho.solid_0
+thermo:alpha.solid
+alpha.solid_0
+e.water
+Su
+thermo:psi.solid
+continuityErrorFlow.water
+)
+
+
+    From function const Type& Foam::objectRegistry::lookupObject(const Foam::word&) const [with Type = Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>]
+    in file /home/ubuntu/OpenFOAM/OpenFOAM-6/src/OpenFOAM/lnInclude/objectRegistryTemplates.C at line 193.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#1  Foam::error::abort() at ??:?
+#2  Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> const& Foam::objectRegistry::lookupObject<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> >(Foam::word const&) const at ??:?
+#3  Foam::diameterModels::driftModels::phaseChange::correct() at ??:?
+#4  Foam::diameterModels::populationBalanceModel::correct() at ??:?
+#5  Foam::diameterModels::populationBalanceModel::solve() at ??:?
+#6  Foam::PopulationBalancePhaseSystem<Foam::PhaseTransferPhaseSystem<Foam::OneResistanceHeatTransferPhaseSystem<Foam::MomentumTransferPhaseSystem<Foam::twoPhaseSystem> > > >::solve() at ??:?
+#7  ? in "/opt/openfoam6/platforms/linux64GccDPInt32Opt/bin/reactingTwoPhaseEulerFoam"
+#8  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+

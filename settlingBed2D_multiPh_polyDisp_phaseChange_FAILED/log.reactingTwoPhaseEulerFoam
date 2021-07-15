@@ -1,0 +1,138 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 6-fa1285188035
+Exec   : reactingTwoPhaseEulerFoam
+Date   : Jul 15 2021
+Time   : 10:50:10
+Host   : "edwardkgn-VirtualBox"
+PID    : 32183
+I/O    : uncollated
+Case   : /home/edwardkgn/OpenFOAM/edwardkgn-6/run/subbranch_toy_multiPhase_shrinkingParticle/2_TEST_settlingBed2D_phaseChange_FAILED
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: No corrector convergence criteria found
+        Calclations will do 3 corrections
+
+
+Reading g
+
+Reading hRef
+Creating phaseSystem
+
+Selecting twoPhaseSystem populationBalanceTwoPhaseSystem
+Selecting phaseModel for solid: pureIsothermalPhaseModel
+Selecting diameterModel for phase solid: velocityGroup
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState rhoConst;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+Calculating face flux field phi.solid
+Selecting turbulence model type RAS
+Selecting RAS turbulence model kineticTheory
+Selecting viscosityModel Gidaspow
+Selecting conductivityModel Gidaspow
+Selecting radialModel SinclairJackson
+Selecting granularPressureModel Lun
+Selecting frictionalStressModel JohnsonJacksonSchaeffer
+kineticTheoryCoeffs
+{
+    equilibrium     off;
+    e               0.8;
+    alphaMax        0.07;
+    alphaMinFriction 0.06;
+    residualAlpha   0.0001;
+    viscosityModel  Gidaspow;
+    conductivityModel Gidaspow;
+    granularPressureModel Lun;
+    frictionalStressModel JohnsonJacksonSchaeffer;
+    radialModel     SinclairJackson;
+    JohnsonJacksonSchaefferCoeffs
+    {
+        Fr              0.05;
+        eta             2;
+        p               5;
+        phi             28.5;
+        alphaDeltaMin   0.05;
+    }
+}
+
+Selecting phaseModel for water: pureIsothermalPhaseModel
+Selecting diameterModel for phase water: constant
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectFluid;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+Calculating face flux field phi.water
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+No MRF models present
+
+Selecting default blending method: none
+Selecting surfaceTensionModel for (water and solid): constant
+Selecting dragModel for (solid in water): GidaspowErgunWenYu
+Selecting swarmCorrection for (solid in water): none
+Selecting swarmCorrection for (solid in water): none
+Selecting swarmCorrection for (solid in water): none
+Selecting heatTransferModel for (solid in water): RanzMarshall
+Calculating field g.h
+
+Reading field p_rgh
+
+Courant Number mean: 0 max: 0
+
+Starting time loop
+
+Courant Number mean: 0 max: 0
+Max Ur Courant Number = 0
+deltaT = 1.2e-05
+Time = 1.2e-05
+
+PIMPLE: Iteration 1
+MULES: Solving for alpha.solid
+MULES: Solving for alpha.solid
+alpha.solid volume fraction = 0.017  Min(alpha1) = 0  Max(alpha1) = 0.034
+Constructing momentum equations
+GAMG:  Solving for p_rgh, Initial residual = 0.000829257, Final residual = 6.0084e-09, No Iterations 5
+PIMPLE: Iteration 2
+MULES: Solving for alpha.solid
+MULES: Solving for alpha.solid
+smoothSolver:  Solving for alpha.solid, Initial residual = 4.69576e-08, Final residual = 1.19527e-16, No Iterations 1
+alpha.solid volume fraction = 0.017  Min(alpha1) = 0  Max(alpha1) = 0.034
+Constructing momentum equations
+GAMG:  Solving for p_rgh, Initial residual = 4.41475e-05, Final residual = 1.64636e-09, No Iterations 4
+PIMPLE: Iteration 3
+MULES: Solving for alpha.solid
+MULES: Solving for alpha.solid
+smoothSolver:  Solving for alpha.solid, Initial residual = 5.08948e-08, Final residual = 8.51439e-17, No Iterations 1
+alpha.solid volume fraction = 0.017  Min(alpha1) = 0  Max(alpha1) = 0.034
