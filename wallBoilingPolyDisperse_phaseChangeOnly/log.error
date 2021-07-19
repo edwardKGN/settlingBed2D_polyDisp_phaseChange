@@ -1,0 +1,143 @@
+Previous Error was caused by the if else clause in Allrun. It works otherwise when ran normally. 
+
+// DISREGARD
+Courant Number mean: 0.0192225786 max: 0.0216164303
+Max Ur Courant Number = 0.00935792508
+deltaT = 0.000625242822
+Time = 2.61297
+
+PIMPLE: Iteration 1
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+alpha.gas volume fraction = 1.44204151e-05  Min(alpha1) = 0  Max(alpha1) = 0.00198122257
+Constructing face momentum equations
+smoothSolver:  Solving for h.gas, Initial residual = 0.0340756524, Final residual = 9.15092459e-12, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 8.66172948e-05, Final residual = 6.78278379e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995294, mean = 368.354331, max = 373.722327
+iDmdt.gasAndLiquid: min = -1.57508555, mean = -0.0471274227, max = -3.2076368e-105, integral = -0.000471274227
+wDmdt.gasAndLiquid: min = 0, mean = 0.049652252, max = 1.77263909, integral = 0.00049652252
+Wall boiling wall function iterations: 3
+smoothSolver:  Solving for h.gas, Initial residual = 0.0952030496, Final residual = 4.10934858e-11, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 5.90512902e-05, Final residual = 4.67125405e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995294, mean = 368.329179, max = 372.846713
+iDmdt.gasAndLiquid: min = -1.57713859, mean = -0.0432720302, max = -3.17757176e-105, integral = -0.000432720302
+wDmdt.gasAndLiquid: min = 0, mean = 0.050330769, max = 1.77353063, integral = 0.00050330769
+GAMG:  Solving for p_rgh, Initial residual = 0.037554143, Final residual = 1.08798507e-05, No Iterations 100
+PIMPLE: Iteration 2
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+alpha.gas volume fraction = 2.30128056e-05  Min(alpha1) = 0  Max(alpha1) = 0.00201886488
+Constructing face momentum equations
+Wall boiling wall function iterations: 7
+smoothSolver:  Solving for h.gas, Initial residual = 0.0415456155, Final residual = 1.14860967e-11, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 5.26741812e-05, Final residual = 4.28811592e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995295, mean = 368.518999, max = 378.850032
+iDmdt.gasAndLiquid: min = -2.31391159, mean = -0.0783292581, max = -3.45614217e-105, integral = -0.000783292581
+wDmdt.gasAndLiquid: min = 0, mean = 0.0473469087, max = 1.76543113, integral = 0.000473469087
+Wall boiling wall function iterations: 3
+smoothSolver:  Solving for h.gas, Initial residual = 0.286200122, Final residual = 6.81820632e-11, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 5.11351589e-05, Final residual = 3.97698736e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995295, mean = 368.58758, max = 380.269946
+iDmdt.gasAndLiquid: min = -2.67351051, mean = -0.0964033831, max = -3.7068555e-105, integral = -0.000964033831
+wDmdt.gasAndLiquid: min = 0, mean = 0.0461795549, max = 1.76288951, integral = 0.000461795549
+GAMG:  Solving for p_rgh, Initial residual = 0.0288360516, Final residual = 6.41171576e-06, No Iterations 100
+PIMPLE: Iteration 3
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+alpha.gas volume fraction = 1.03832006e-05  Min(alpha1) = 0  Max(alpha1) = 0.00178815075
+Constructing face momentum equations
+Wall boiling wall function iterations: 4
+smoothSolver:  Solving for h.gas, Initial residual = 0.0831838389, Final residual = 4.36426441e-12, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 1.92228014e-05, Final residual = 1.76096716e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995295, mean = 368.477585, max = 377.649267
+iDmdt.gasAndLiquid: min = -2.29238176, mean = -0.0822027047, max = -3.65490111e-105, integral = -0.000822027047
+wDmdt.gasAndLiquid: min = 0, mean = 0.0469586208, max = 1.76938037, integral = 0.000469586208
+Wall boiling wall function iterations: 4
+smoothSolver:  Solving for h.gas, Initial residual = 0.157377226, Final residual = 5.33466708e-11, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 1.039209e-05, Final residual = 1.07984605e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995295, mean = 368.403254, max = 375.425966
+iDmdt.gasAndLiquid: min = -2.03573184, mean = -0.0732307064, max = -3.60814214e-105, integral = -0.000732307064
+wDmdt.gasAndLiquid: min = 0, mean = 0.0468200396, max = 1.77345462, integral = 0.000468200396
+GAMG:  Solving for p_rgh, Initial residual = 0.0206606581, Final residual = 5.85972499e-07, No Iterations 100
+PIMPLE: Iteration 4
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+alpha.gas volume fraction = 1.42708946e-05  Min(alpha1) = 0  Max(alpha1) = 0.00203136155
+Constructing face momentum equations
+Wall boiling wall function iterations: 3
+smoothSolver:  Solving for h.gas, Initial residual = 0.0798391593, Final residual = 1.30898958e-12, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 3.20144109e-05, Final residual = 2.56316908e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995295, mean = 368.371854, max = 374.076745
+iDmdt.gasAndLiquid: min = -1.82995718, mean = -0.0669781504, max = -3.80977476e-105, integral = -0.000669781504
+wDmdt.gasAndLiquid: min = 0, mean = 0.0458694962, max = 1.77539917, integral = 0.000458694962
+Wall boiling wall function iterations: 2
+smoothSolver:  Solving for h.gas, Initial residual = 0.0696712392, Final residual = 2.82710425e-12, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 2.53965181e-05, Final residual = 1.91265076e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995295, mean = 368.346341, max = 373.147858
+iDmdt.gasAndLiquid: min = -1.84147479, mean = -0.0615467202, max = -3.9912441e-105, integral = -0.000615467202
+wDmdt.gasAndLiquid: min = 0, mean = 0.0452529972, max = 1.77655645, integral = 0.000452529972
+GAMG:  Solving for p_rgh, Initial residual = 0.0469206256, Final residual = 8.29632004e-06, No Iterations 100
+PIMPLE: Iteration 5
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+alpha.gas volume fraction = 5.59986534e-05  Min(alpha1) = 0  Max(alpha1) = 0.0174688964
+Constructing face momentum equations
+Wall boiling wall function iterations: 2
+smoothSolver:  Solving for h.gas, Initial residual = 0.049821211, Final residual = 3.39430219e-10, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 6.91815043e-05, Final residual = 5.19888227e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995295, mean = 368.372227, max = 372.50022
+iDmdt.gasAndLiquid: min = -1.88254375, mean = -0.0576032851, max = -3.92761989e-105, integral = -0.000576032851
+wDmdt.gasAndLiquid: min = 0, mean = 0.0446425573, max = 1.77764372, integral = 0.000446425573
+Wall boiling wall function iterations: 2
+smoothSolver:  Solving for h.gas, Initial residual = 0.0420673469, Final residual = 2.13962941e-09, No Iterations 1
+smoothSolver:  Solving for h.liquid, Initial residual = 5.0362939e-05, Final residual = 3.73675001e-10, No Iterations 1
+Tf.gasAndLiquid: min = 367.995295, mean = 368.36763, max = 372.499
+iDmdt.gasAndLiquid: min = -1.92615849, mean = -0.0540815546, max = -3.8703581e-105, integral = -0.000540815546
+wDmdt.gasAndLiquid: min = 0, mean = 0.0440447955, max = 1.7786988, integral = 0.000440447955
+GAMG:  Solving for p_rgh, Initial residual = 0.0276310107, Final residual = 7.66418117e-05, No Iterations 100
+PIMPLE: Iteration 6
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+MULES: Solving for alpha.gas
+alpha.gas volume fraction = 2.68620095e-05  Min(alpha1) = -4.91367442e-09  Max(alpha1) = 0.00446797656
+populationBalance bubbles: Iteration 1
+DILUPBiCGStab:  Solving for f0.gas.bubbles, Initial residual = 0.00105121647, Final residual = 3.07027741e-09, No Iterations 1
+DILUPBiCGStab:  Solving for f1.gas.bubbles, Initial residual = 0.0162379758, Final residual = 3.20627795e-07, No Iterations 1
+DILUPBiCGStab:  Solving for f2.gas.bubbles, Initial residual = 0.0167695523, Final residual = 3.81169405e-07, No Iterations 1
+DILUPBiCGStab:  Solving for f3.gas.bubbles, Initial residual = 0.0186173764, Final residual = 4.64416485e-13, No Iterations 1
+DILUPBiCGStab:  Solving for f4.gas.bubbles, Initial residual = 0.0226186774, Final residual = 2.85505516e-07, No Iterations 1
+DILUPBiCGStab:  Solving for f5.gas.bubbles, Initial residual = 0.0176547916, Final residual = 8.5278722e-07, No Iterations 1
+DILUPBiCGStab:  Solving for f6.gas.bubbles, Initial residual = 0.0126596192, Final residual = 4.55145606e-07, No Iterations 1
+DILUPBiCGStab:  Solving for f7.gas.bubbles, Initial residual = 0.00492672096, Final residual = 6.02631015e-08, No Iterations 1
+DILUPBiCGStab:  Solving for f8.gas.bubbles, Initial residual = 0.0258867189, Final residual = 4.00950304e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f9.gas.bubbles, Initial residual = 0.0262908288, Final residual = 1.14723629e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f10.gas.bubbles, Initial residual = 0.0273308311, Final residual = 2.00991839e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f11.gas.bubbles, Initial residual = 0.0284097818, Final residual = 2.90144926e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f12.gas.bubbles, Initial residual = 0.0294747364, Final residual = 3.73174336e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f13.gas.bubbles, Initial residual = 0.03048574, Final residual = 4.39601716e-10, No Iterations 1
+gas Sauter mean diameter, min, max = 0.00128461136 -0.00508090963 0.46567038 // ERROR here I suspect. Negative mean diameter
+gas sizeGroups-sum volume fraction, min, max = 0.996114738 0.615982997 1.86090391
+bubbles sizeGroup phase fraction first, last = 1.7126256e-05 3.2514521e-09 // ERROR here as well, indicating mass in-balance.
+Constructing face momentum equations
+#0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#1  Foam::sigFpe::sigHandler(int) at ??:?
+#2  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+#3  ? in "/lib/x86_64-linux-gnu/libm.so.6"
+#4  pow in "/lib/x86_64-linux-gnu/libm.so.6"
+#5  Foam::pow(Foam::Field<double>&, Foam::UList<double> const&, double const&) at ??:?
+#6  Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > Foam::pow<Foam::fvPatchField, Foam::volMesh>(Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> const&, Foam::dimensioned<double> const&) at ??:?
+#7  Foam::dragModels::SchillerNaumann::CdRe() const at ??:?
+#8  Foam::dragModel::Ki() const at ??:?
+#9  Foam::dragModel::K() const at ??:?
+#10  Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > Foam::BlendedInterfacialModel<Foam::dragModel>::evaluate<double, Foam::fvPatchField, Foam::volMesh>(Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > (Foam::dragModel::*)() const, Foam::word const&, Foam::dimensionSet const&, bool) const at ??:?
+#11  Foam::BlendedInterfacialModel<Foam::dragModel>::K() const at ??:?
+#12  Foam::MomentumTransferPhaseSystem<Foam::twoPhaseSystem>::momentumTransfer() at ??:?
+#13  ? in "/opt/openfoam6/platforms/linux64GccDPInt32Opt/bin/reactingTwoPhaseEulerFoam"
+#14  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+#15  ? in "/opt/openfoam6/platforms/linux64GccDPInt32Opt/bin/reactingTwoPhaseEulerFoam"
+Floating point exception (core dumped)
